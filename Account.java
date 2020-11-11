@@ -5,7 +5,7 @@ public class Account {
 	private int previousTransaction = 0;
 	private String customerID = "ksj";
 	private String customerPW = "0000";
-	
+
 	Scanner scan = new Scanner(System.in);
 
 	public void signIn(String customerID, String customerPW) {
@@ -26,7 +26,7 @@ public class Account {
 				continue;
 			} // if else
 		} // while
-	}//signIn
+	}// signIn
 
 	public int getBalance() {
 		return balance;
@@ -75,5 +75,4 @@ public class Account {
 		System.out.println("D. Previous Transaction");
 		System.out.println("E. Exit");
 	}// showMenu()
-
 }
